@@ -2,7 +2,6 @@ body{
     font-family:'Poppins', sans-serif;
 }
 section{
-    height:500px;
     background-color:white;
     border: solid black 1px;
 
@@ -11,7 +10,7 @@ section{
     background-color: #1c1d25;
     height: 100vh;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 footer {
@@ -87,4 +86,20 @@ h1{
 
 .social{
     margin: 10px;
+}
+
+.sub-section{
+   display: flex;
+   justify-content: space-around;
+    padding: 80px;
+}
+
+.headshot {
+    width: 200px;
+    border-radius: 100px;
+    margin-left: 80px;
+}
+.headshot-container {
+    display: flex;
+    align-items: center;
 }
