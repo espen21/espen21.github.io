@@ -159,7 +159,6 @@ hr {
     color: white;
 }
 
-
 .hamburger {
     display: none;
 }
@@ -169,7 +168,8 @@ hr {
 }
 
 
-.hamburger {
+@media only screen and (max-width: 1000px) {
+    .hamburger {
         display: block;
         border: 0;
         background-color: transparent;
@@ -182,7 +182,7 @@ hr {
     ul {
         display: none;
         background-color: #2b2c38;
-        margin: 0px;
+        margin: 0ppx;
     }
 
     ul.show {
@@ -198,3 +198,4 @@ hr {
     .logo {
         display: none;
     }
+}
