@@ -131,8 +131,8 @@ h1{
     .demo-vid {
         display: flex;
         flex-wrap: wrap;
-        width: 100;
-        height: 100;
+        width: 320;
+        height: 240;
     }
 }
 .project-image {
